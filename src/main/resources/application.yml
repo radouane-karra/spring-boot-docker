@@ -1,0 +1,14 @@
+server:
+  port: ${APP_PORT:8070}
+  servlet:
+    context-path: /v1/api
+  
+spring:
+  main:
+    banner-mode: "off"
+         
+security:
+  require-ssl: false
+  basic:
+    enable: false
+    
